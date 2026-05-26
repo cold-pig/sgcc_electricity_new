@@ -1,5 +1,5 @@
 name: "SGCC Electricity"
-version: "v1.7.3-test"
+version: "v1.8.0"
 slug: "sgcc_electricity"
 description: "获取国网电费数据的插件"
 url: "https://github.com/ARC-MX/sgcc_electricity_new"
@@ -31,6 +31,7 @@ options:
   RECHARGE_NOTIFY: false
   BALANCE: 5.0
   PUSHPLUS_TOKEN: "xxxx,xxxx"
+  ARK_API_KEY: "your-ark-api-key-here"
 schema:
   PHONE_NUMBER: str
   PASSWORD: password
@@ -45,3 +46,4 @@ schema:
   RECHARGE_NOTIFY: bool 
   BALANCE: float 
   PUSHPLUS_TOKEN: str
+  ARK_API_KEY: str
